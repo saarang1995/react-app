@@ -23,6 +23,8 @@ class Counter extends Component {
   }
 
   render() {
+
+    console.log(this.props);
     return (
       <React.Fragment>
         {/* ghost div */}
@@ -33,7 +35,7 @@ class Counter extends Component {
         >
           Increment
         </button>
-        {this.renderTags()}
+        {/* {this.renderTags()} */}
       </React.Fragment>
     );
   }
